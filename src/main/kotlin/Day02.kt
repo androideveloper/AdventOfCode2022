@@ -12,14 +12,14 @@ fun main() {
     println(totalScore)
 }
 
-val points = mapOf(
+private val points = mapOf(
     "X" to 1,
     "Y" to 2,
     "Z" to 3
 )
 
 // Part 1
-fun score1(line : String) : Int {
+private fun score1(line : String) : Int {
     val (opponent, me) = line.split(" ")
 
     val winnerScore = when {
@@ -39,7 +39,7 @@ fun score1(line : String) : Int {
 }
 
 // Part 2
-fun score2(line : String) : Int {
+private fun score2(line : String) : Int {
     val (opponent, result) = line.split(" ")
 
     val me = when {
