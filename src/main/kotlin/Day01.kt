@@ -38,21 +38,6 @@ fun main() {
     println(top3Sum)
 }
 
-// TODO check my Klarna laptop key setup and copy here
-
-//fun solve(testIndex: Int, n: Int, array : MutableList<Int>) {
-//    var cost = 0
-//
-//    for (i in 0 until n - 1) {
-//        val subList = array.subList(i, n)
-//        val j = array.indexOf(subList.min())
-//        cost += j - i + 1
-//        array.subList(i, j + 1).reverse()
-//    }
-//
-//    println("Case #$testIndex: $cost")
-//}
-
 private fun readLn() = readLine()!! // string line
 private fun readInt() = readLn().toInt() // single int
 private fun readLong() = readLn().toLong() // single long
